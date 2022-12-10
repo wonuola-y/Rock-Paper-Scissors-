@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap'); 
+body{
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Rubik Vinyl', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    margin: 0.3em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    opacity: 1;
+}
+.main{
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(7, 245, 243, 0.42);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.4px);
+-webkit-backdrop-filter: blur(1.4px);
+border: 1px solid rgba(7, 245, 243, 0.3);
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1em;
+margin: 1em;
+}
+.scoreboard-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+}
+.scoreboard{
+    display: flex;
+    font-size: .5em;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: .5em;
+}
+.scoreboard > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+}
+.scoreboard > div > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: .5em;
+}
+.scoreboard > div > div > p{
+  margin-left: 1em;
+}
+p{
+font-size: 1em;
+}
+em{
+    font-style: normal;
+    font-size: 3em;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    margin: 1em;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.rock, .paper, .scissors{
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    flex-direction: column;
+    padding: 1em;
+background-color: skyblue;
+    color: black;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
